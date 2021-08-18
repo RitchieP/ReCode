@@ -1,0 +1,68 @@
+#icons {
+    width: 40px;
+    height: 40px;
+    filter: invert(100);
+}
+
+#Title, #Title > h1{
+    color: whitesmoke;
+    background-color: #1D1F23;
+    margin: 0px;
+    font-family: "Consolas", monospace;
+    display: block;
+    text-decoration: none;
+}
+
+header > h3{
+    background-color: #1D1F23;
+    margin: 0px;
+    font-family: "Consolas", monospace;
+    color: whitesmoke;
+}
+
+body {
+    background-color: #121212;
+    margin: 0px;
+    color: whitesmoke;
+}
+
+footer > p{
+    background-color: #1D1F23;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hyperlink {
+    color: #7be4e6;
+}
+
+.hyperlink:visited {
+    color: rgb(238, 52, 238);
+}
+
+.introduction {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    border: 1px solid whitesmoke;
+    background-color: #2b2d33;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.helloWorld {
+    color: #E5C06A;
+    background-color: #2b2d33;
+    border: 1px solid #999;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    width: 100px;
+    margin: 10px;
+}
+
+.profile_pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
