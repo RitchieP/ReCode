@@ -1,4 +1,4 @@
-#icons {
+.icons {
     width: 40px;
     height: 40px;
     filter: invert(100);
@@ -42,12 +42,20 @@ footer > p{
 
 .introduction {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: block;
+    display: inline-block;
     border: 1px solid whitesmoke;
     background-color: #2b2d33;
     border-radius: 5px;
-    margin: 20px;
+    margin: 5px;
     padding: 10px;
+}
+
+.profile_pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px;
 }
 
 .helloWorld {
@@ -57,12 +65,23 @@ footer > p{
     border-radius: 5px;
     display: block;
     padding: 10px;
-    width: 100px;
+    width: 120px;
     margin: 10px;
 }
 
-.profile_pic {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+.intro_parent {
+    display: flex;
+    justify-content: center;
 }
+
+.code {
+    text-align: center;
+}
+
+.footer{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
+
