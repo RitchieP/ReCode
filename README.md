@@ -6,4 +6,5 @@ This is my personal website where I have started now (17th August 2021). Just as
 - All images used are stored in the *image* folder
 
 Link to the webpage itself is [ReCode](https://ritchiep.github.io/ReCode/)
+
 Or find it at the GitHub pages.
